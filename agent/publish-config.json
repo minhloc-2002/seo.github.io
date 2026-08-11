@@ -1,0 +1,11 @@
+{
+  "provider": "github-pages",
+  "owner": "minhloc-2002",
+  "repository": "seo.github.io",
+  "branch": "main",
+  "siteUrl": "https://minhloc-2002.github.io/seo.github.io/",
+  "basePath": "",
+  "contentSource": "data/articles.json",
+  "reviewRequired": true,
+  "futureRepository": "kael.github.io"
+}

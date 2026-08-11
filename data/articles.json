@@ -1,0 +1,86 @@
+[
+  {
+    "id": "rates-explained",
+    "title": "Interest Rates Explained Without the Jargon",
+    "category": "Finance Foundations",
+    "summary": "A visual mental model for understanding policy rates, bond yields, borrowing costs and asset prices.",
+    "readTime": "6 min",
+    "date": "2026-08-04",
+    "tags": [
+      "Rates",
+      "Beginner"
+    ],
+    "body": {
+      "intro": "This article is a publication-ready sample for Finance Academy. It demonstrates how structured JSON can feed a readable long-form page without a build step.",
+      "heading1": "Start with the decision",
+      "section1": "The useful question is not whether a topic sounds important, but what decision it changes. A visual mental model for understanding policy rates, bond yields, borrowing costs and asset prices. The analysis should make assumptions visible and keep evidence separate from interpretation.",
+      "quote": "Clarity improves when the method is visible and the limits are stated before the conclusion.",
+      "heading2": "A repeatable framework",
+      "section2": "Use a three-part review: define the claim, identify the evidence that would change it, and record the action threshold. This structure also gives a future publishing Agent explicit fields to draft and a human reviewer clear checkpoints.",
+      "close": "Treat this sample as editable educational content, not a recommendation or promise of financial outcomes."
+    }
+  },
+  {
+    "id": "risk-return",
+    "title": "Risk and Return: The Lesson Most Charts Skip",
+    "category": "Core Lesson",
+    "summary": "Why volatility is only one part of risk, and how time horizon changes the answer.",
+    "readTime": "7 min",
+    "date": "2026-07-24",
+    "tags": [
+      "Risk",
+      "Portfolio"
+    ],
+    "body": {
+      "intro": "This article is a publication-ready sample for Finance Academy. It demonstrates how structured JSON can feed a readable long-form page without a build step.",
+      "heading1": "Build the right mental model",
+      "section1": "The useful question is not whether a topic sounds important, but what decision it changes. Why volatility is only one part of risk, and how time horizon changes the answer. The analysis should make assumptions visible and keep evidence separate from interpretation.",
+      "quote": "Clarity improves when the method is visible and the limits are stated before the conclusion.",
+      "heading2": "What to check next",
+      "section2": "Use a three-part review: define the claim, identify the evidence that would change it, and record the action threshold. This structure also gives a future publishing Agent explicit fields to draft and a human reviewer clear checkpoints.",
+      "close": "Treat this sample as editable educational content, not a recommendation or promise of financial outcomes."
+    }
+  },
+  {
+    "id": "market-orders",
+    "title": "What Happens After You Press Buy?",
+    "category": "Market Mechanics",
+    "summary": "Follow an order from your screen through matching, execution, settlement and reporting.",
+    "readTime": "5 min",
+    "date": "2026-07-12",
+    "tags": [
+      "Markets",
+      "Explainer"
+    ],
+    "body": {
+      "intro": "This article is a publication-ready sample for Finance Academy. It demonstrates how structured JSON can feed a readable long-form page without a build step.",
+      "heading1": "Start with the decision",
+      "section1": "The useful question is not whether a topic sounds important, but what decision it changes. Follow an order from your screen through matching, execution, settlement and reporting. The analysis should make assumptions visible and keep evidence separate from interpretation.",
+      "quote": "Clarity improves when the method is visible and the limits are stated before the conclusion.",
+      "heading2": "A repeatable framework",
+      "section2": "Use a three-part review: define the claim, identify the evidence that would change it, and record the action threshold. This structure also gives a future publishing Agent explicit fields to draft and a human reviewer clear checkpoints.",
+      "close": "Treat this sample as editable educational content, not a recommendation or promise of financial outcomes."
+    }
+  },
+  {
+    "id": "loss-aversion",
+    "title": "Loss Aversion in Real Portfolios",
+    "category": "Investor Psychology",
+    "summary": "A case-based lesson on recognizing emotional decisions before they become expensive habits.",
+    "readTime": "8 min",
+    "date": "2026-06-29",
+    "tags": [
+      "Psychology",
+      "Cases"
+    ],
+    "body": {
+      "intro": "This article is a publication-ready sample for Finance Academy. It demonstrates how structured JSON can feed a readable long-form page without a build step.",
+      "heading1": "Build the right mental model",
+      "section1": "The useful question is not whether a topic sounds important, but what decision it changes. A case-based lesson on recognizing emotional decisions before they become expensive habits. The analysis should make assumptions visible and keep evidence separate from interpretation.",
+      "quote": "Clarity improves when the method is visible and the limits are stated before the conclusion.",
+      "heading2": "What to check next",
+      "section2": "Use a three-part review: define the claim, identify the evidence that would change it, and record the action threshold. This structure also gives a future publishing Agent explicit fields to draft and a human reviewer clear checkpoints.",
+      "close": "Treat this sample as editable educational content, not a recommendation or promise of financial outcomes."
+    }
+  }
+]

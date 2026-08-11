@@ -1,1 +1,1 @@
-const SITE_CONFIG={\n  repository:"YOUR_GITHUB_REPO",\n  baseUrl:"YOUR_GITHUB_PAGES_URL"\n};
+const SITE_CONFIG={\n  repository:"seo.github.io",\n  baseUrl:"https://minhloc-2002.github.io/seo.github.io"\n};

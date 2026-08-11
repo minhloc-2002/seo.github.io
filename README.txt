@@ -2,7 +2,7 @@ KAEL — GITHUB PAGES BLOG TEMPLATE
 ============================================================
 
 This ZIP is ready to upload to the ROOT of a GitHub Pages repository.
-After extraction, index.html must be at repository root (do not upload an extra kael/ wrapper folder).
+After extraction, index.html must be at repository root (do not upload an extra minhloc/ wrapper folder).
 
 DEFAULT TEST TARGET
 -------------------
@@ -36,10 +36,10 @@ A) File: config.js
    Line 5 — optional subfolder path
    Current: pathPrefix: "",
    Keep empty when this template is uploaded to repository root.
-   For a subfolder test, change to: pathPrefix: "kael",
+   For a subfolder test, change to: pathPrefix: "minhloc",
 
    Line 7 — planned standalone repository
-   Current: futureRepository: "kael.github.io",
+   Current: futureRepository: "minhloc.github.io",
    Change only if you choose a different final repository name.
 
 B) File: agent/publish-config.json
@@ -57,26 +57,26 @@ B) File: agent/publish-config.json
 
    Line 7 — optional base path
    Current: "basePath": "",
-   Keep empty for repository root. Use "kael" only when testing in that subfolder.
+   Keep empty for repository root. Use "minhloc" only when testing in that subfolder.
 
 TESTING ALL FIVE TEMPLATES IN ONE REPOSITORY
 ---------------------------------------------
-If you place this whole template in /kael/ inside seo.github.io:
+If you place this whole template in /minhloc/ inside seo.github.io:
 1. Change config.js line 4 to:
-   baseUrl: "https://minhloc-2002.github.io/seo.github.io/kael/",
+   baseUrl: "https://minhloc-2002.github.io/seo.github.io/minhloc/",
 2. Change config.js line 5 to:
-   pathPrefix: "kael",
+   pathPrefix: "minhloc",
 3. Change agent/publish-config.json line 6 to the same URL.
 4. Change agent/publish-config.json line 7 to:
-   "basePath": "kael",
+   "basePath": "minhloc",
 5. Visit:
-   https://minhloc-2002.github.io/seo.github.io/kael/
+   https://minhloc-2002.github.io/seo.github.io/minhloc/
 
 FUTURE STANDALONE REPOSITORY
 ----------------------------
-Suggested repository: kael.github.io
+Suggested repository: minhloc.github.io
 Suggested Pages URL under the current owner:
-https://minhloc-2002.github.io/kael.github.io/
+https://minhloc-2002.github.io/minhloc.github.io/
 
 Update the two configuration files listed above. No HTML, CSS or JavaScript path changes are required because all browser assets use relative paths.
 

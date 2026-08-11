@@ -1,4 +1,4 @@
-KAEL — GITHUB PAGES BLOG TEMPLATE
+minhloc — GITHUB PAGES BLOG TEMPLATE
 ============================================================
 
 This ZIP is ready to upload to the ROOT of a GitHub Pages repository.

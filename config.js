@@ -3,8 +3,8 @@ window.SITE_CONFIG = {
   repository: "seo.github.io",
   baseUrl: "https://minhloc-2002.github.io/seo.github.io/",
   pathPrefix: "",
-  siteFolder: "kael",
-  futureRepository: "kael.github.io",
+  siteFolder: "minhloc",
+  futureRepository: "minhloc.github.io",
   contentEndpoint: "data/articles.json",
   profileEndpoint: "data/profile.json"
 };

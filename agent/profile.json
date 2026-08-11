@@ -1,9 +1,9 @@
 {
-  "name": "Zerik",
+  "name": "seo",
   "school": "Erasmus University Rotterdam Rotterdam School of Management",
   "major": "Finance & Investments、Financial Management",
   "bio": "Focused on reviewing trading tools and platforms, we continuously analyze various trading software, AI tools, and efficiency solutions. Through real-world testing, comparative analysis, and hands-on tutorials, we help traders quickly find the right toolset and build a more efficient, stable trading workflow.",
-  "avatar": "file:///C:/Users/Admin/Downloads/5/9951a9e6-0ee6-42f2-a7d2-309bd9dbcbce.png",
+  "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNt8oVyC6yma80FC8Wny7cUXeFJ2K_lmJESOLR2NBTWg&s=10",
   "agent_ready": true,
   "content_pipeline": {
     "input": "Markdown/JSON",

@@ -1,11 +1,11 @@
 {
-  "slug": "kael",
-  "name": "Kael",
+  "slug": "minhloc",
+  "name": "minhloc",
   "role": "Financial Education Mentor",
   "brand": "Finance Academy",
   "school": "University of Manchester · Alliance Manchester Business School",
   "major": "Finance · Accounting · Business Analytics",
-  "bio": "Kael explains financial knowledge in an accessible way, from market mechanisms to trading strategies, risk management and investment psychology. Real-world cases turn complex concepts into systematic lessons that are clear, practical and easy to apply.",
+  "bio": "minhloc explains financial knowledge in an accessible way, from market mechanisms to trading strategies, risk management and investment psychology. Real-world cases turn complex concepts into systematic lessons that are clear, practical and easy to apply.",
   "avatar": "assets/avatar.png",
   "topics": [
     "Finance Foundations",

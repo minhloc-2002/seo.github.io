@@ -1,5 +1,26 @@
 [
   {
+    "id": "2026-paying-for-news-is-cheaper-than-not-having-it",
+    "title": "2026 Paying for News is Cheaper Than Not Having It",
+    "category": "Article",
+    "summary": "The article argues that journalism once thrived because newspapers relied on profitable local advertising monopolies. This revenue model allowed news organizations to employ large numbers of journalists who provided…",
+    "readTime": "2 min",
+    "date": "2026-08-12",
+    "tags": [
+      "Article"
+    ],
+    "body": {
+      "intro": "<img src=\"assets/github-2026-paying-for-news-is-cheaper-than-not-having-it-1.png\" alt=\"\" loading=\"lazy\">",
+      "heading1": "The Internet Has Destroyed the Traditional Business Model of Journalism and Harmed the Public Interest",
+      "section1": "The article argues that journalism once thrived because newspapers relied on profitable local advertising monopolies. This revenue model allowed news organizations to employ large numbers of journalists who provided public oversight, investigated institutions, and helped maintain transparency in society. However, the rise of the internet shifted advertising revenue to major technology companies such as Google and Facebook, whose scale and targeting capabilities allowed them to dominate the market. As a result, newspapers lost their financial foundation, many news organizations collapsed, and thousands of journalists lost their jobs.</p><p>The author emphasizes that big technology companies benefited from the economic value of news without taking responsibility for producing journalism. Their primary business is capturing and selling user attention, not funding reporting. Social media platforms can generate large amounts of content from users at little cost, reducing the incentive to invest in professional journalism. This has created an environment where commentary and opinion are expanding while original reporting is shrinking, leaving citizens with less reliable information and weakening democratic accountability.",
+      "quote": "",
+      "heading2": "Journalism Should Be Treated as a Public Good Requiring New Support Models",
+      "section2": "The article argues that journalism faces a structural crisis rather than merely a problem of poor management. Like healthcare, transportation, and housing, journalism serves an important public function but cannot always be sustained by profit-driven markets alone. The author suggests that public funding may be necessary to ensure the continued existence of independent reporting and to protect society’s access to accurate information.</p><p>At the same time, the author believes journalism must develop new financial models suited to the digital era. Traditional “free” news was actually supported by advertising and users’ attention, but that model has collapsed. Independent journalists increasingly rely on subscriptions and direct support from readers, requiring the public to recognize that quality journalism has real costs. Building a culture of paying for journalism, combined with broader structural reforms, is presented as a long-term solution to preserving a healthy information ecosystem.",
+      "close": ""
+    },
+    "status": "published"
+  },
+  {
     "id": "rates-explained",
     "title": "Interest Rates Explained Without the Jargon",
     "category": "Finance Foundations",

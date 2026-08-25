@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+  background: #f5f7fa;
+  color: #111;
+}
+
+/* NAVBAR */
+.navbar {
+  background: white;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.logo a {
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: #111;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #555;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(120deg, #1e3c72, #2a5298);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/* FEATURED */
+.featured {
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.featured-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* GRID */
+.posts-grid {
+  max-width: 1100px;
+  margin: 40px auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.card p {
+  margin: 0;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.date {
+  color: gray;
+  font-size: 14px;
+}
+
+/* FOOTER */
+.footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer a {
+  color: #ddd;
+  margin: 0 10px;
+}
+/* ARTICLE LAYOUT */
+.post-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.post-inner {
+  max-width: 760px;   /* 关键：限制阅读宽度 */
+  width: 100%;
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+}
+
+/* TITLE */
+.post-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* DATE */
+.post-date {
+  color: #888;
+  margin-bottom: 30px;
+}
+
+/* CONTENT TYPOGRAPHY */
+.post-content {
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+/* HEADINGS */
+.post-content h2 {
+  margin-top: 30px;
+}
+
+.post-content h3 {
+  margin-top: 20px;
+}
+
+/* CODE BLOCK */
+.post-content pre {
+  background: #111;
+  color: #eee;
+  padding: 15px;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+/* MOBILE OPTIMIZATION */
+@media (max-width: 768px) {
+  .post-inner {
+    padding: 20px;
+  }
+
+  .post-title {
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,30 @@
+title: Rizky Pratama Blog
+description: Product Reviews, Tech Insights, and Market Analysis
+baseurl: "/product-voice.github.io"
+url: "https://rizky-pratama-2001.github.io"
+
+author:
+  name: Rizky Pratama
+  bio: >
+    My name is Rizky Pratama. I graduated from BINUS University in 2022 with a major in Information Technology.
+    With 3 years of professional experience in product horizontal review and evaluation, I have built solid insights into product comparison, market analysis, and user demand research.
+    I am passionate about sports and always curious about new things, trends, and innovative ideas. I love exploring fresh perspectives, learning continuously, and sharing valuable content related to product reviews and the tech industry.
+  email: martinkimberlyfegae5011@gmail.com
+  twitter: Martinkimb54669
+
+theme: minima
+
+markdown: kramdown
+
+permalink: /:title/
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post

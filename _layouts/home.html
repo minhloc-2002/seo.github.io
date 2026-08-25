@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Product Insights & Tech Reviews</h1>
+    <p>Deep analysis, comparisons, and market trends by Rizky Pratama</p>
+  </div>
+</section>
+
+<section class="featured">
+  <h2>Featured Post</h2>
+
+  {% assign featured = site.posts.first %}
+  {% if featured %}
+  <div class="featured-card">
+    <h3><a href="{{ featured.url | relative_url }}">{{ featured.title }}</a></h3>
+    <p class="date">{{ featured.date | date: "%B %d, %Y" }}</p>
+    <p>{{ featured.excerpt }}</p>
+  </div>
+  {% endif %}
+</section>
+
+<section class="posts-grid">
+  <h2>Latest Articles</h2>
+
+  <div class="grid">
+    {% for post in site.posts offset:1 %}
+    <div class="card">
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
+      <p>{{ post.excerpt }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>

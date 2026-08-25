@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  <meta name="description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
+<meta name="keywords" content="product reviews, tech analysis, product comparison, market research">
+<meta name="author" content="Rizky Pratama">
+
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
+<meta property="og:type" content="article">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Rizky Pratama Blog",
+  "url": "{{ site.url }}{{ site.baseurl }}",
+  "author": {
+    "@type": "Person",
+    "name": "Rizky Pratama"
+  },
+  "description": "Product reviews, tech insights, and market analysis"
+}
+</script>
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="nav-container">
+    <div class="logo">
+      <a href="{{ "/" | relative_url }}">{{ site.title }}</a>
+    </div>
+
+    <nav>
+      <a href="{{ "/" | relative_url }}">Home</a>
+      <a href="{{ "/blog/" | relative_url }}">Blog</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  {{ content }}
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <h3>{{ site.author.name }}</h3>
+    <p>{{ site.author.bio }}</p>
+
+    <div class="social">
+      <a href="mailto:{{ site.author.email }}">Email</a>
+      <a href="https://x.com/{{ site.author.twitter }}">X</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

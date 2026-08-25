@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rizky-pratama-2001.github.io/product-voice.github.io/sitemap.xml
+Sitemap: https://minhloc-2002.github.io/seo.github.io/sitemap.xml
